@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1 id="log">Login</h1>
+            <h1 id="reg">Register</h1>
+            
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="input-box" id="box1">
+                <input type="text" placeholder="Email" required>
+            </div>
+            <div class="input-box" id="box2">
+                <input type="text" placeholder="Phone Number" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox">Remember me
+                </label>
+                <a href="#" id="fp">Forgot password ?</a>
+            </div>
+            <button type="submit" class="btn" id="logbtn">Login</button>
+            <button type="submit" class="btn" id="regbtn">Register</button>
+
+            <div class="register-link">
+                <p id="reg-1">Don't have an account ? <a href="#" id="hide">Register</a></p>
+                <p id="log-1">Already have an account ? <a href="#" id="hide-2">Login</a></p>
+            </div>
+        </form>
+    </div>
+    
+   
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
